@@ -1,5 +1,7 @@
 # safe-set-state
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/axetroy/react-safe-setstate.svg)](https://greenkeeper.io/)
+
 react component decorator for make sure this.setState() run at safe env. registry setState method with an empty function before unmount.
 
 ## Install
