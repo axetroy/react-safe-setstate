@@ -7,8 +7,9 @@ export default function safeSetState(options = {}) {
       return setState.apply(this, [...arguments]);
     };
     target.prototype.componentWillUnmount = function() {
+      const value = componentWillUnmount.apply(this, [...arguments]);
       this.setState = () => {};
-      return componentWillUnmount.apply(this, [...arguments]);
+      return value;
     };
   };
 }
