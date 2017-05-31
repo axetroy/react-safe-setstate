@@ -1,6 +1,6 @@
 {
   "name": "@axetroy/react-safe-set-state",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "react component decorator for implement setStateAsync method which set state and return Promise",
   "main": "index.js",
   "scripts": {
